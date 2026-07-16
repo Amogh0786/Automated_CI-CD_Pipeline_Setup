@@ -65,3 +65,16 @@ Open the `azure-pipelines.yml` file in your code editor and change these specifi
 Watch the screen! You will see the robot building your app, packaging it, and sending it to the live server automatically. 
 
 🎉 **Congratulations! You have built your first CI/CD Pipeline!**
+
+---
+## 🐙 GitHub Actions Alternative
+
+We have also included a `.github/workflows/azure-deploy.yml` file! If you prefer to use GitHub Actions instead of Azure DevOps, you can:
+1. Go to your GitHub repository **Settings** -> **Secrets and variables** -> **Actions**.
+2. Add three Repository Secrets:
+   * `ACR_USERNAME`: Your Azure Container Registry username.
+   * `ACR_PASSWORD`: Your Azure Container Registry password.
+   * `AZURE_CREDENTIALS`: A JSON string of your Azure Service Principal credentials.
+3. Update the `env` block at the top of the workflow file with your ACR and Web App names.
+
+Once configured, GitHub Actions will automatically build and deploy your app every time you push to the `main` branch!
