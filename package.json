@@ -1,0 +1,12 @@
+{
+  "name": "automated-ci-cd-pipeline",
+  "version": "1.0.0",
+  "description": "Sample web app for CI/CD demonstration with Azure",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}

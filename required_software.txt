@@ -1,0 +1,27 @@
+REQUIRED SOFTWARE AND TOOLS
+===========================
+
+To work on this project locally, you will need the following tools installed on your computer:
+
+1. Git (Required)
+   - What it is: A tool to track changes in your code and push it to the cloud.
+   - Download: https://git-scm.com/downloads
+
+2. Node.js (Optional, but recommended)
+   - What it is: The environment that runs our JavaScript web application.
+   - Download: https://nodejs.org/
+   - Why you need it: To test the app on your computer before deploying it.
+
+3. Docker Desktop (Optional, but recommended)
+   - What it is: A tool that packages our app into a "container" so it runs exactly the same everywhere.
+   - Download: https://www.docker.com/products/docker-desktop/
+   - Why you need it: To test the container building process on your own computer.
+
+4. A Code Editor (Recommended)
+   - What it is: A program to write and edit your code easily.
+   - Download: Visual Studio Code (https://code.visualstudio.com/) is highly recommended.
+
+ACCOUNTS REQUIRED (Cloud Services):
+-----------------------------------
+1. Azure Account: You need an active Microsoft Azure account (https://azure.microsoft.com/) to host the app.
+2. Azure DevOps Account: You need a free Azure DevOps organization (https://dev.azure.com/) to run the CI/CD pipeline.
